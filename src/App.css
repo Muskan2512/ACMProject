@@ -1,0 +1,28 @@
+.bg1{
+  background-image: url("./image3.jpg");
+}
+.bg2{
+  background-image: url("./image2.jpg");
+}
+.bg3{
+  background-image: url("/image1.jpg" );
+}
+
+.bg-image{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter:brightness(60%);
+  transition:all ease-in 200ms; 
+}
+.hero:hover .bg-image{
+  cursor:pointer;
+  /* opacity:0.7; */
+  filter: brightness(40%);
+}
+.bg-image:hover{
+  cursor:pointer;
+  /* opacity:0.7; */
+  filter: brightness(40%);
+}
+
